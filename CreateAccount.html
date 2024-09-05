@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <style>
+        button { 
+            background-color: blue;
+            color : white;
+        }
+    </style>
+  </head>
+  <body>
+    <h1><small>Enter details to</small> <b>Create Account</b></h1>
+    <form>
+      <div>
+        <label> Enter your name:</label>
+        <input type="text" placeholder="Mahad" />
+      </div>
+      <br />
+      <div>
+        <label> Enter your email:</label>
+        <input type="email" placeholder="mahad@gmail.com" />
+      </div>
+      <br />
+      <div>
+        <label> Enter your password:</label>
+        <input type="password" placeholder="73gdyu!@" />
+      </div>
+      <br />
+      <div>
+        <label> Enter your age:</label>
+        <input type="number" placeholder="17" min="15" max="18" />
+      </div>
+      <br />
+      <div>
+        <label> Enter your phone number:</label>
+        <input type="text" placeholder="+92-5316765" />
+      </div>
+      <br />
+      <div>
+        <label> Select a course:</label>
+        <select>
+          <option>Select Course</option>
+          <option>Physics</option>
+          <option value="mathematics">Mathematics</option>
+          <option value="biology">Biology</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="computer-science">Computer Science</option>
+        </select>
+      </div>
+      <br />
+      <div><label> Rate yourself: </label> <input type="range" /></div>
+      <br />
+      <div>
+        <label>Select the date to join</label>
+        <input type="date" />
+      </div>
+      <br />
+      <div><label> File: </label> <input type="file" /></div>
+
+      <br />
+      <div>
+        <label>Feedback</label>
+        <textarea rows="10" columns="90"></textarea>
+      </div>
+      <div>
+        <label> Are you sure you want to continue?</label>
+        <input type="checkbox" />
+      </div>
+
+      <br />
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
